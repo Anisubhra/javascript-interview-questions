@@ -42,12 +42,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
 | No. | Questions                                                                                                                                                         |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [What are the possible ways to create objects in JavaScript](#what-are-the-possible-ways-to-create-objects-in-javascript)                                         |
 | 2   | [What is prototype chain](#what-is-a-prototype-chain)                                                                                                             |
 | 3   | [What is the difference between Call, Apply and Bind](#what-is-the-difference-between-call-apply-and-bind)                                                        |
 | 4   | [What is JSON and its common operations](#what-is-json-and-its-common-operations)                                                                                 |
-| 5   | [What is the purpose of the array slice method](#what-is-the-purpose-of-the-array-slice-method)                                                                   |
-| 6   | [What is the purpose of the array splice method](#what-is-the-purpose-of-the-array-splice-method)                                                                 |
 | 7   | [What is the difference between slice and splice](#what-is-the-difference-between-slice-and-splice)                                                               |
 | 8   | [How do you compare Object and Map](#how-do-you-compare-object-and-map)                                                                                           |
 | 9   | [What is the difference between == and === operators](#what-is-the-difference-between--and--operators)                                                            |
@@ -58,17 +55,66 @@ You can download the PDF and Epub version of this repository from the latest run
 | 14  | [What is a unary function](#what-is-a-unary-function)                                                                                                             |
 | 15  | [What is the currying function](#what-is-the-currying-function)                                                                                                   |
 | 16  | [What is a pure function](#what-is-a-pure-function)                                                                                                               |
-| 17  | [What is the purpose of the let keyword](#what-is-the-purpose-of-the-let-keyword)                                                                                 |
 | 18  | [What is the difference between let and var](#what-is-the-difference-between-let-and-var)                                                                         |
-| 19  | [What is the reason to choose the name let as a keyword](#what-is-the-reason-to-choose-the-name-let-as-a-keyword)                                                 |
-| 20  | [How do you redeclare variables in switch block without an error](#how-do-you-redeclare-variables-in-switch-block-without-an-error)                               |
 | 21  | [What is the Temporal Dead Zone](#what-is-the-temporal-dead-zone)                                                                                                 |
 | 22  | [What is IIFE(Immediately Invoked Function Expression)](#what-is-iifeimmediately-invoked-function-expression)                                                     |
-| 23  | [How do you decode or encode a URL in JavaScript?](#how-do-you-decode-or-encode-a-url-in-javascript)                                                              |
 | 24  | [What is memoization](#what-is-memoization)                                                                                                                       |
 | 25  | [What is Hoisting](#what-is-hoisting)                                                                                                                             |
 | 26  | [What are classes in ES6](#what-are-classes-in-es6)                                                                                                               |
 | 27  | [What are closures](#what-are-closures)                                                                                                                           |
+| 37  | [What is a cookie](#what-is-a-cookie)                                                                                                                             |
+| 38  | [Why do you need a Cookie](#why-do-you-need-a-cookie)                                                                                                             |
+| 41  | [What are the differences between cookie, local storage and session storage](#What-are-the-differences-between-cookie-local-storage-and-session-storage)          |
+| 51  | [What is a promise](#what-is-a-promise)                                                                                                                           |
+| 52  | [Why do you need a promise](#why-do-you-need-a-promise)                                                                                                           |
+| 53  | [What are the three states of promise](#what-are-the-three-states-of-promise)                                                                                     |
+| 54  | [What is a callback function](#what-is-a-callback-function)                                                                                                       |
+| 55  | [Why do we need callbacks](#why-do-we-need-callbacks)                                                                                                             |
+| 56  | [What is a callback hell](#what-is-a-callback-hell)                                                                                                               |
+| 63  | [What is promise chaining](#what-is-promise-chaining)                                                                                                             |
+| 64  | [What is promise.all](#what-is-promise.all)                                                                                                                       |
+| 65  | [What is the purpose of race method in promise](#what-is-the-purpose-of-race-method-in-promise)                                                                   |
+| 66  | [What is a strict mode in javascript](#what-is-a-strict-mode-in-javascript)                                                                                       |
+| 67  | [Why do you need strict mode](#why-do-you-need-strict-mode)                                                                                                       |
+| 74  | [What is the difference between null and undefined](#what-is-the-difference-between-null-and-undefined)                                                           |
+| 85  | [What is an event flow](#what-is-an-event-flow)                                                                                                                   |
+| 86  | [What is event bubbling](#what-is-event-bubbling)                                                                                                                 |
+| 87  | [What is event capturing](#what-is-event-capturing)                                                                                                               |
+| 82  | [What are the problems with global variables](#what-are-the-problems-with-global-variables)                                                                       |
+| 102 | [What is the use of preventDefault method](#what-is-the-use-of-preventdefault-method)                                                                             |
+| 103 | [What is the use of stopPropagation method](#what-is-the-use-of-stoppropagation-method)                                                                           |
+| 108 | [Why is JavaScript treated as Single threaded](#why-is-javascript-treated-as-single-threaded)                                                                     |
+| 109 | [What is an event delegation](#what-is-an-event-delegation)                                                                                                       |
+| 111 | [What is JSON](#what-is-json)                                                                                                                                     |
+| 151 | [What is tree shaking](#what-is-tree-shaking)                                                                                                                     |
+| 152 | [What is the need of tree shaking](#what-is-the-need-of-tree-shaking)                                                                                             |
+| 236 | [What is an event loop](#what-is-an-event-loop)                                                                                                                   |
+| 237 | [What is call stack](#what-is-call-stack)                                                                                                                         |
+| 238 | [What is an event queue](#what-is-an-event-queue)                                                                                                                 |
+| 297 | [What is V8 JavaScript engine](#what-is-v8-javascript-engine)                                                                                                     |
+| 298 | [Why do we call javascript as dynamic language](#why-do-we-call-javascript-as-dynamic-language)                                                                   |
+| 299 | [What is a void operator](#what-is-a-void-operator)                                                                                                               |
+| 251 | [What is typescript](#what-is-typescript)                                                                                                                         |
+| 252 | [What are the differences between javascript and typescript](#what-are-the-differences-between-javascript-and-typescript)                                         |
+| 253 | [What are the advantages of typescript over javascript](#what-are-the-advantages-of-typescript-over-javascript)                                                   |
+| 387 | [What are tasks in event loop](#what-are-tasks-in-event-loop)                                                                                                     |
+| 388 | [What are microtasks](#what-are-microtasks)                                                                                                                       |
+| 389 | [What are different event loops](#what-are-different-event-loops)                                                                                                 |
+| 390 | [What is the purpose of queueMicrotask](#what-is-the-purpose-of-queuemicrotask)                                                                                   |
+| 395 | [What is a microTask queue](#what-is-a-microtask-queue)                                                                                                           |
+| 425 | [What is nullish coalescing operator(??)?](<#what-is-nullish-coalescing-operator-(??)>)                                                                           |
+| 432 | [What is global execution context?](#what-is-global-execution-context)                                                                                            |
+| 433 | [What is function execution context?](#what-is-function-execution-context)                                                                                        |
+| 434 | [What is debouncing?](#what-is-debouncing)                                                                                                                        |
+| 435 | [What is throttling?](#what-is-throttling)                                                                                                                        |
+
+| 1   | [What are the possible ways to create objects in JavaScript](#what-are-the-possible-ways-to-create-objects-in-javascript)                                         |
+| 5   | [What is the purpose of the array slice method](#what-is-the-purpose-of-the-array-slice-method)                                                                   |
+| 6   | [What is the purpose of the array splice method](#what-is-the-purpose-of-the-array-splice-method)                                                                 |
+| 17  | [What is the purpose of the let keyword](#what-is-the-purpose-of-the-let-keyword)                                                                                 |
+| 19  | [What is the reason to choose the name let as a keyword](#what-is-the-reason-to-choose-the-name-let-as-a-keyword)                                                 |
+| 20  | [How do you redeclare variables in switch block without an error](#how-do-you-redeclare-variables-in-switch-block-without-an-error)                               |
+| 23  | [How do you decode or encode a URL in JavaScript?](#how-do-you-decode-or-encode-a-url-in-javascript)                                                              |
 | 28  | [What are modules](#what-are-modules)                                                                                                                             |
 | 29  | [Why do you need modules](#why-do-you-need-modules)                                                                                                               |
 | 30  | [What is scope in javascript](#what-is-scope-in-javascript)                                                                                                       |
@@ -78,11 +124,8 @@ You can download the PDF and Epub version of this repository from the latest run
 | 34  | [What is IndexedDB](#what-is-indexeddb)                                                                                                                           |
 | 35  | [What is web storage](#what-is-web-storage)                                                                                                                       |
 | 36  | [What is a post message](#what-is-a-post-message)                                                                                                                 |
-| 37  | [What is a cookie](#what-is-a-cookie)                                                                                                                             |
-| 38  | [Why do you need a Cookie](#why-do-you-need-a-cookie)                                                                                                             |
 | 39  | [What are the options in a cookie](#what-are-the-options-in-a-cookie)                                                                                             |
 | 40  | [How do you delete a cookie](#how-do-you-delete-a-cookie)                                                                                                         |
-| 41  | [What are the differences between cookie, local storage and session storage](#What-are-the-differences-between-cookie-local-storage-and-session-storage)          |
 | 42  | [What is the main difference between localStorage and sessionStorage](#what-is-the-main-difference-between-localstorage-and-sessionstorage)                       |
 | 43  | [How do you access web storage](#how-do-you-access-web-storage)                                                                                                   |
 | 44  | [What are the methods available on session storage](#what-are-the-methods-available-on-session-storage)                                                           |
@@ -92,30 +135,18 @@ You can download the PDF and Epub version of this repository from the latest run
 | 48  | [How do you check web workers browser support](#how-do-you-check-web-workers-browser-support)                                                                     |
 | 49  | [Give an example of web worker](#give-an-example-of-web-worker)                                                                                                   |
 | 50  | [What are the restrictions of web workers on DOM](#what-are-the-restrictions-of-web-workers-on-dom)                                                               |
-| 51  | [What is a promise](#what-is-a-promise)                                                                                                                           |
-| 52  | [Why do you need a promise](#why-do-you-need-a-promise)                                                                                                           |
-| 53  | [What are the three states of promise](#what-are-the-three-states-of-promise)                                                                                     |
-| 54  | [What is a callback function](#what-is-a-callback-function)                                                                                                       |
-| 55  | [Why do we need callbacks](#why-do-we-need-callbacks)                                                                                                             |
-| 56  | [What is a callback hell](#what-is-a-callback-hell)                                                                                                               |
 | 57  | [What is server-sent events](#what-is-server-sent-events)                                                                                                         |
 | 58  | [How do you receive server-sent event notifications](#how-do-you-receive-server-sent-event-notifications)                                                         |
 | 59  | [How do you check browser support for server-sent events](#how-do-you-check-browser-support-for-server-sent-events)                                               |
 | 60  | [What are the events available for server sent events](#what-are-the-events-available-for-server-sent-events)                                                     |
 | 61  | [What are the main rules of promise](#what-are-the-main-rules-of-promise)                                                                                         |
 | 62  | [What is callback in callback](#what-is-callback-in-callback)                                                                                                     |
-| 63  | [What is promise chaining](#what-is-promise-chaining)                                                                                                             |
-| 64  | [What is promise.all](#what-is-promise.all)                                                                                                                       |
-| 65  | [What is the purpose of race method in promise](#what-is-the-purpose-of-race-method-in-promise)                                                                   |
-| 66  | [What is a strict mode in javascript](#what-is-a-strict-mode-in-javascript)                                                                                       |
-| 67  | [Why do you need strict mode](#why-do-you-need-strict-mode)                                                                                                       |
 | 68  | [How do you declare strict mode](#how-do-you-declare-strict-mode)                                                                                                 |
 | 69  | [What is the purpose of double exclamation](#what-is-the-purpose-of-double-exclamation)                                                                           |
 | 70  | [What is the purpose of delete operator](#what-is-the-purpose-of-delete-operator)                                                                                 |
 | 71  | [What is typeof operator](#what-is-typeof-operator)                                                                                                               |
 | 72  | [What is undefined property](#what-is-undefined-property)                                                                                                         |
 | 73  | [What is null value](#what-is-null-value)                                                                                                                         |
-| 74  | [What is the difference between null and undefined](#what-is-the-difference-between-null-and-undefined)                                                           |
 | 75  | [What is eval](#What-is-eval)                                                                                                                                     |
 | 76  | [What is the difference between window and document](#what-is-the-difference-between-window-and-document)                                                         |
 | 77  | [How do you access history in javascript](#how-do-you-access-history-in-javascript)                                                                               |
@@ -123,12 +154,8 @@ You can download the PDF and Epub version of this repository from the latest run
 | 79  | [What is isNaN](#what-is-isnan)                                                                                                                                   |
 | 80  | [What are the differences between undeclared and undefined variables](#what-are-the-differences-between-undeclared-and-undefined-variables)                       |
 | 81  | [What are global variables](#what-are-global-variables)                                                                                                           |
-| 82  | [What are the problems with global variables](#what-are-the-problems-with-global-variables)                                                                       |
 | 83  | [What is NaN property](#what-is-nan-property)                                                                                                                     |
 | 84  | [What is the purpose of isFinite function](#what-is-the-purpose-of-isfinite-function)                                                                             |
-| 85  | [What is an event flow](#what-is-an-event-flow)                                                                                                                   |
-| 86  | [What is event bubbling](#what-is-event-bubbling)                                                                                                                 |
-| 87  | [What is event capturing](#what-is-event-capturing)                                                                                                               |
 | 88  | [How do you submit a form using JavaScript](#how-do-you-submit-a-form-using-javascript)                                                                           |
 | 89  | [How do you find operating system details](#how-do-you-find-operating-system-details)                                                                             |
 | 90  | [What is the difference between document load and DOMContentLoaded events](#what-is-the-difference-between-document-load-and-domcontentloaded-events)             |
@@ -143,16 +170,11 @@ You can download the PDF and Epub version of this repository from the latest run
 | 99  | [Is there any relation between Java and JavaScript](#is-there-any-relation-between-java-and-javascript)                                                           |
 | 100 | [What are events](#what-are-events)                                                                                                                               |
 | 101 | [Who created javascript](#who-created-javascript)                                                                                                                 |
-| 102 | [What is the use of preventDefault method](#what-is-the-use-of-preventdefault-method)                                                                             |
-| 103 | [What is the use of stopPropagation method](#what-is-the-use-of-stoppropagation-method)                                                                           |
 | 104 | [What are the steps involved in return false](#what-are-the-steps-involved-in-return-false)                                                                       |
 | 105 | [What is BOM](#what-is-bom)                                                                                                                                       |
 | 106 | [What is the use of setTimeout](#what-is-the-use-of-settimeout)                                                                                                   |
 | 107 | [What is the use of setInterval](#what-is-the-use-of-setinterval)                                                                                                 |
-| 108 | [Why is JavaScript treated as Single threaded](#why-is-javascript-treated-as-single-threaded)                                                                     |
-| 109 | [What is an event delegation](#what-is-an-event-delegation)                                                                                                       |
 | 110 | [What is ECMAScript](#what-is-ecmascript)                                                                                                                         |
-| 111 | [What is JSON](#what-is-json)                                                                                                                                     |
 | 112 | [What are the syntax rules of JSON](#what-are-the-syntax-rules-of-json)                                                                                           |
 | 113 | [What is the purpose JSON stringify](#what-is-the-purpose-json-stringify)                                                                                         |
 | 114 | [How do you parse JSON string](#how-do-you-parse-json-string)                                                                                                     |
@@ -192,8 +214,6 @@ You can download the PDF and Epub version of this repository from the latest run
 | 148 | [How do you define JSON arrays](#how-do-you-define-json-arrays)                                                                                                   |
 | 149 | [How do you generate random integers](#how-do-you-generate-random-integers)                                                                                       |
 | 150 | [Can you write a random integers function to print integers with in a range](#can-you-write-a-random-integers-function-to-print-integers-with-in-a-range)         |
-| 151 | [What is tree shaking](#what-is-tree-shaking)                                                                                                                     |
-| 152 | [What is the need of tree shaking](#what-is-the-need-of-tree-shaking)                                                                                             |
 | 153 | [Is it recommended to use eval](#is-it-recommended-to-use-eval)                                                                                                   |
 | 154 | [What is a Regular Expression](#what-is-a-regular-expression)                                                                                                     |
 | 155 | [What are the string methods available in Regular expression](#what-are-the-string-methods-available-in-regular-expression)                                       |
@@ -277,9 +297,6 @@ You can download the PDF and Epub version of this repository from the latest run
 | 233 | [How do you perform language specific date and time formatting](#how-do-you-perform-language-specific-date-and-time-formatting)                                   |
 | 234 | [What is an Iterator](#what-is-an-iterator)                                                                                                                       |
 | 235 | [How does synchronous iteration works](#how-does-synchronous-iteration-works)                                                                                     |
-| 236 | [What is an event loop](#what-is-an-event-loop)                                                                                                                   |
-| 237 | [What is call stack](#what-is-call-stack)                                                                                                                         |
-| 238 | [What is an event queue](#what-is-an-event-queue)                                                                                                                 |
 | 239 | [What is a decorator](#what-is-a-decorator)                                                                                                                       |
 | 240 | [What are the properties of Intl object](#what-are-the-properties-of-intl-object)                                                                                 |
 | 241 | [What is an Unary operator](#what-is-an-unary-operator)                                                                                                           |
@@ -292,9 +309,6 @@ You can download the PDF and Epub version of this repository from the latest run
 | 248 | [How do you get meta data of a module](#how-do-you-get-meta-data-of-a-module)                                                                                     |
 | 249 | [What is a comma operator](#what-is-a-comma-operator)                                                                                                             |
 | 250 | [What is the advantage of a comma operator](#what-is-the-advantage-of-a-comma-operator)                                                                           |
-| 251 | [What is typescript](#what-is-typescript)                                                                                                                         |
-| 252 | [What are the differences between javascript and typescript](#what-are-the-differences-between-javascript-and-typescript)                                         |
-| 253 | [What are the advantages of typescript over javascript](#what-are-the-advantages-of-typescript-over-javascript)                                                   |
 | 254 | [What is an object initializer](#what-is-an-object-initializer)                                                                                                   |
 | 255 | [What is a constructor method](#what-is-a-constructor-method)                                                                                                     |
 | 256 | [What happens if you write constructor more than once in a class](#what-happens-if-you-write-constructor-more-than-once-in-a-class)                               |
@@ -338,9 +352,6 @@ You can download the PDF and Epub version of this repository from the latest run
 | 294 | [How do you load CSS and JS files dynamically](#how-do-you-load-css-and-js-files-dynamically)                                                                     |
 | 295 | [What are the different methods to find HTML elements in DOM](#what-are-the-different-methods-to-find-html-elements-in-dom)                                       |
 | 296 | [What is jQuery](#what-is-jquery)                                                                                                                                 |
-| 297 | [What is V8 JavaScript engine](#what-is-v8-javascript-engine)                                                                                                     |
-| 298 | [Why do we call javascript as dynamic language](#why-do-we-call-javascript-as-dynamic-language)                                                                   |
-| 299 | [What is a void operator](#what-is-a-void-operator)                                                                                                               |
 | 300 | [How to set the cursor to wait](#how-to-set-the-cursor-to-wait)                                                                                                   |
 | 301 | [How do you create an infinite loop](#how-do-you-create-an-infinite-loop)                                                                                         |
 | 302 | [Why do you need to avoid with statement](#why-do-you-need-to-avoid-with-statement)                                                                               |
@@ -428,15 +439,10 @@ You can download the PDF and Epub version of this repository from the latest run
 | 384 | [What is web speech API](#what-is-web-speech-api)                                                                                                                 |
 | 385 | [What is minimum timeout throttling](#what-is-minimum-timeout-throttling)                                                                                         |
 | 386 | [How do you implement zero timeout in modern browsers](#how-do-you-implement-zero-timeout-in-modern-browsers)                                                     |
-| 387 | [What are tasks in event loop](#what-are-tasks-in-event-loop)                                                                                                     |
-| 388 | [What are microtasks](#what-are-microtasks)                                                                                                                       |
-| 389 | [What are different event loops](#what-are-different-event-loops)                                                                                                 |
-| 390 | [What is the purpose of queueMicrotask](#what-is-the-purpose-of-queuemicrotask)                                                                                   |
 | 391 | [How do you use javascript libraries in typescript file](#how-do-you-use-javascript-libraries-in-typescript-file)                                                 |
 | 392 | [What are the differences between promises and observables](#what-are-the-differences-between-promises-and-observables)                                           |
 | 393 | [What is heap](#what-is-heap)                                                                                                                                     |
 | 394 | [What is an event table](#what-is-an-event-table)                                                                                                                 |
-| 395 | [What is a microTask queue](#what-is-a-microtask-queue)                                                                                                           |
 | 396 | [What is the difference between shim and polyfill](#what-is-the-difference-between-shim-and-polyfill)                                                             |
 | 397 | [How do you detect primitive or non primitive value type](#how-do-you-detect-primitive-or-non-primitive-value-type)                                               |
 | 398 | [What is babel](#what-is-babel)                                                                                                                                   |
@@ -466,17 +472,12 @@ You can download the PDF and Epub version of this repository from the latest run
 | 422 | [Is that possible to use expressions in switch cases?](#is-that-possible-to-use-expressions-in-switch-cases)                                                      |
 | 423 | [What is the easiest way to ignore promise errors?](#what-is-the-easiest-way-to-ignore-promise-errors)                                                            |
 | 424 | [How do style the console output using CSS?](#how-do-style-the-console-output-using-css)                                                                          |
-| 425 | [What is nullish coalescing operator(??)?](<#what-is-nullish-coalescing-operator-(??)>)                                                                           |
 | 426 | [How do you group and nest console output?](#how-do-you-group-and-nest-console-output)                                                                            |
 | 427 | [What is the difference between dense and sparse arrays?](#what-is-the-difference-between-dense-and-sparse-arrays)                                                |
 | 428 | [What are the different ways to create sparse arrays?](#what-are-the-different-ways-to-create-sparse-arrays)                                                      |
 | 429 | [What is the difference between setTimeout, setImmediate and process.nextTick?](#what-is-the-difference-between-set-timeout-,-set-immediate-and-processnext-tick) |
 | 430 | [How do you reverse an array without modifying original array?](#how-do-you-reverse-an-array-without-modifying-original-array)                                    |
 | 431 | [How do you create custom HTML element?](#how-do-you-create-custom-html-element)                                                                                  |
-| 432 | [What is global execution context?](#what-is-global-execution-context)                                                                                            |
-| 433 | [What is function execution context?](#what-is-function-execution-context)                                                                                        |
-| 434 | [What is debouncing?](#what-is-debouncing)                                                                                                                        |
-| 435 | [What is throttling?](#what-is-throttling)                                                                                                                        |
 | 436 | [What is optional chaining?](#what-is-optional-chaining)                                                                                                          |
 
 1. ### What are the possible ways to create objects in JavaScript
