@@ -75,29 +75,39 @@ You can download the PDF and Epub version of this repository from the latest run
 | 66  | [What is a strict mode in javascript](#what-is-a-strict-mode-in-javascript)                                                                                       |
 | 67  | [Why do you need strict mode](#why-do-you-need-strict-mode)                                                                                                       |
 | 74  | [What is the difference between null and undefined](#what-is-the-difference-between-null-and-undefined)                                                           |
+| 82  | [What are the problems with global variables](#what-are-the-problems-with-global-variables)                                                                       |
 | 85  | [What is an event flow](#what-is-an-event-flow)                                                                                                                   |
 | 86  | [What is event bubbling](#what-is-event-bubbling)                                                                                                                 |
 | 87  | [What is event capturing](#what-is-event-capturing)                                                                                                               |
-| 82  | [What are the problems with global variables](#what-are-the-problems-with-global-variables)                                                                       |
+| 97  | [Is JavaScript a compiled or interpreted language](#is-javascript-a-compiled-or-interpreted-language)                                                             |
 | 102 | [What is the use of preventDefault method](#what-is-the-use-of-preventdefault-method)                                                                             |
 | 103 | [What is the use of stopPropagation method](#what-is-the-use-of-stoppropagation-method)                                                                           |
 | 108 | [Why is JavaScript treated as Single threaded](#why-is-javascript-treated-as-single-threaded)                                                                     |
 | 109 | [What is an event delegation](#what-is-an-event-delegation)                                                                                                       |
+| 136 | [Is the '!--' notation represents a special operator](#is-the----notation-represents-a-special-operator)                                                          |
+| 142 | [What is a polyfill](#what-is-a-polyfill)                                                                                                                         |
 | 151 | [What is tree shaking](#what-is-tree-shaking)                                                                                                                     |
 | 152 | [What is the need of tree shaking](#what-is-the-need-of-tree-shaking)                                                                                             |
+| 223 | [What are primitive data types](#what-are-primitive-data-types)                                                                                                   |
 | 236 | [What is an event loop](#what-is-an-event-loop)                                                                                                                   |
 | 237 | [What is call stack](#what-is-call-stack)                                                                                                                         |
 | 238 | [What is an event queue](#what-is-an-event-queue)                                                                                                                 |
+| 286 | [How do you compare scalar arrays](#how-do-you-compare-scalar-arrays)                                                                                             |
 | 297 | [What is V8 JavaScript engine](#what-is-v8-javascript-engine)                                                                                                     |
 | 298 | [Why do we call javascript as dynamic language](#why-do-we-call-javascript-as-dynamic-language)                                                                   |
 | 299 | [What is a void operator](#what-is-a-void-operator)                                                                                                               |
 | 251 | [What is typescript](#what-is-typescript)                                                                                                                         |
 | 252 | [What are the differences between javascript and typescript](#what-are-the-differences-between-javascript-and-typescript)                                         |
 | 253 | [What are the advantages of typescript over javascript](#what-are-the-advantages-of-typescript-over-javascript)                                                   |
+| 322 | [What is collation](#what-is-collation)
+| 345 | [What is the difference between Shallow and Deep copy](#what-is-the-difference-between-shallow-and-deep-copy) 
+| 380 | [What are wrapper objects](#what-are-wrapper-objects)
 | 387 | [What are tasks in event loop](#what-are-tasks-in-event-loop)                                                                                                     |
 | 388 | [What are microtasks](#what-are-microtasks)                                                                                                                       |
 | 389 | [What are different event loops](#what-are-different-event-loops)                                                                                                 |
 | 390 | [What is the purpose of queueMicrotask](#what-is-the-purpose-of-queuemicrotask)                                                                                   |
+| 392 | [What are the differences between promises and observables](#what-are-the-differences-between-promises-and-observables)                                           |
+| 393 | [What is heap](#what-is-heap) 
 | 395 | [What is a microTask queue](#what-is-a-microtask-queue)                                                                                                           |
 | 425 | [What is nullish coalescing operator(??)?](<#what-is-nullish-coalescing-operator-(??)>)                                                                           |
 | 432 | [What is global execution context?](#what-is-global-execution-context)                                                                                            |
