@@ -62,6 +62,8 @@ You can download the PDF and Epub version of this repository from the latest run
 | 25  | [What is Hoisting](#what-is-hoisting)                                                                                                                             |
 | 26  | [What are classes in ES6](#what-are-classes-in-es6)                                                                                                               |
 | 27  | [What are closures](#what-are-closures)                                                                                                                           |
+| 28  | [What is lexical scope](#what-are-closures)                                                                                                                       |
+| 29  | [What is scope chain](#what-are-closures)                                                                                                                         |
 | 37  | [What is a cookie](#what-is-a-cookie)                                                                                                                             |
 | 41  | [What are the differences between cookie, local storage and session storage](#What-are-the-differences-between-cookie-local-storage-and-session-storage)          |
 | 51  | [What is a promise](#what-is-a-promise)                                                                                                                           |
