@@ -64,6 +64,11 @@ You can download the PDF and Epub version of this repository from the latest run
 | 27  | [What are closures](#what-are-closures)                                                                                                                           |
 | 28  | [What is lexical scope](#what-are-closures)                                                                                                                       |
 | 29  | [What is scope chain](#what-are-closures)                                                                                                                         |
+| 31  | [What is a service worker](#what-is-a-service-worker)                                                                                                             |
+| 31  | [What is a service worker](#what-is-a-service-worker)                                                                                                             |
+| 32  | [How do you manipulate DOM using a service worker](#how-do-you-manipulate-dom-using-a-service-worker)                                                             |
+| 33  | [How do you reuse information across service worker restarts](#how-do-you-reuse-information-across-service-worker-restarts)                                       |
+| 34  | [What is IndexedDB](#what-is-indexeddb)                                                                                                                           |
 | 37  | [What is a cookie](#what-is-a-cookie)                                                                                                                             |
 | 41  | [What are the differences between cookie, local storage and session storage](#What-are-the-differences-between-cookie-local-storage-and-session-storage)          |
 | 51  | [What is a promise](#what-is-a-promise)                                                                                                                           |
@@ -77,7 +82,9 @@ You can download the PDF and Epub version of this repository from the latest run
 | 66  | [What is a strict mode in javascript](#what-is-a-strict-mode-in-javascript)                                                                                       |
 | 67  | [Why do you need strict mode](#why-do-you-need-strict-mode)                                                                                                       |
 | 74  | [What is the difference between null and undefined](#what-is-the-difference-between-null-and-undefined)                                                           |
+| 79  | [What is isNaN](#what-is-isnan)                                                                                                                                   |
 | 82  | [What are the problems with global variables](#what-are-the-problems-with-global-variables)                                                                       |
+| 83  | [What is NaN property](#what-is-nan-property)                                                                                                                     |
 | 85  | [What is an event flow](#what-is-an-event-flow)                                                                                                                   |
 | 86  | [What is event bubbling](#what-is-event-bubbling)                                                                                                                 |
 | 87  | [What is event capturing](#what-is-event-capturing)                                                                                                               |
@@ -90,6 +97,17 @@ You can download the PDF and Epub version of this repository from the latest run
 | 142 | [What is a polyfill](#what-is-a-polyfill)                                                                                                                         |
 | 151 | [What is tree shaking](#what-is-tree-shaking)                                                                                                                     |
 | 152 | [What is the need of tree shaking](#what-is-the-need-of-tree-shaking)                                                                                             |
+| 154 | [What is a Regular Expression](#what-is-a-regular-expression)                                                                                                     |
+| 155 | [What are the string methods available in Regular expression](#what-are-the-string-methods-available-in-regular-expression)                                       |
+| 156 | [What are modifiers in regular expression](#what-are-modifiers-in-regular-expression)                                                                             |
+| 157 | [What are regular expression patterns](#what-are-regular-expression-patterns)                                                                                     |
+| 176 | [What is the difference between proto and prototype](#what-is-the-difference-between-proto-and-prototype)                                                         |
+| 203 | [What is a WeakSet](#what-is-a-weakset)                                                                                                                           |
+| 204 | [What are the differences between a WeakSet and a Set](#what-are-the-differences-between-weakset-and-set)                                                         |
+| 205 | [List down the collection of methods available on WeakSet](#list-down-the-collection-of-methods-available-on-weakset)                                             |
+| 206 | [What is a WeakMap](#what-is-a-weakmap)                                                                                                                           |
+| 207 | [What are the differences between a WeakMap and a Map](#what-are-the-differences-between-weakmap-and-map)                                                         |
+| 208 | [List down the collection of methods available on WeakMap](#list-down-the-collection-of-methods-available-on-weakmap)                                             |
 | 223 | [What are primitive data types](#what-are-primitive-data-types)                                                                                                   |
 | 236 | [What is an event loop](#what-is-an-event-loop)                                                                                                                   |
 | 237 | [What is call stack](#what-is-call-stack)                                                                                                                         |
@@ -111,11 +129,17 @@ You can download the PDF and Epub version of this repository from the latest run
 | 392 | [What are the differences between promises and observables](#what-are-the-differences-between-promises-and-observables)                                           |
 | 393 | [What is heap](#what-is-heap) 
 | 395 | [What is a microTask queue](#what-is-a-microtask-queue)                                                                                                           |
+| 414 | [What are the differences between arguments object and rest parameter](#what-are-the-differences-between-arguments-object-and-rest-parameter)                     |
+| 415 | [What are the differences between spread operator and rest parameter](#what-are-the-differences-between-spread-operator-and-rest-parameter)                       |
 | 425 | [What is nullish coalescing operator(??)?](<#what-is-nullish-coalescing-operator-(??)>)                                                                           |
 | 432 | [What is global execution context?](#what-is-global-execution-context)                                                                                            |
 | 433 | [What is function execution context?](#what-is-function-execution-context)                                                                                        |
 | 434 | [What is debouncing?](#what-is-debouncing)                                                                                                                        |
 | 435 | [What is throttling?](#what-is-throttling)                                                                                                                        |
+| 448 | [What is module pattern?](#what-is-module-pattern)                                                                                                                |
+| 449 | [What is Function Composition?](#what-is-function-composition)                                                                                                    |
+| 450 | [How to use await outside of async function prior to ES2022?](#how-to-use-await-outside-of-async-function-prior-to-es2022)                                        |
+| 451 | [What is the purpose of the this keyword in JavaScript?](#what_is_the_purpose_of_the_this_keyword_in_javascript?)                                                 |
 
 1. ### What are the possible ways to create objects in JavaScript
 
